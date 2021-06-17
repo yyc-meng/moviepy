@@ -385,7 +385,7 @@ class VideoClip(Clip):
             codec,
             bitrate=bitrate,
             preset=preset,
-            withmask=withmask,
+            with_mask=withmask,
             write_logfile=write_logfile,
             audiofile=audiofile,
             threads=threads,
