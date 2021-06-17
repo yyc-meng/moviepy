@@ -249,6 +249,7 @@ def ffmpeg_write_video(
         fps,
         codec=codec,
         preset=preset,
+        with_mask=with_mask,
         bitrate=bitrate,
         logfile=logfile,
         audiofile=audiofile,
